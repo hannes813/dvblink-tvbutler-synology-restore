@@ -1,0 +1,21 @@
+DVBLinkServer/
+├── common/
+│   └── product_info/
+│       ├── dvblinkserver.xml
+│       └── tvsource.xml
+├── config/
+│   ├── dvblink_configuration.xml
+│   └── dvblink_settings.xml
+├── packages/
+│   └── 57c26324-2fd1-4af4-b09d-4333ebff1393/
+│       └── package.xml
+├── sources/
+│   ├── TVSource-1/
+│   │   └── TVSourceSettings.xml
+│   └── TVSource-2/
+│       └── TVSourceSettings.xml
+├── templates/
+│   └── sources/
+│       └── TVSource/
+├── web_server/
+└── share -> mounted runtime share

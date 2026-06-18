@@ -1,0 +1,10 @@
+services:
+  dvblink:
+    image: dvblink:6.0.0
+    container_name: dvblink
+    restart: unless-stopped
+    network_mode: host
+    privileged: true
+    volumes:
+      - /dev/bus/usb:/dev/bus/usb
+      - /volume2/docker/dvblink/share:/var/packages/DVBLinkServer/target/share
